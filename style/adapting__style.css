@@ -1,0 +1,282 @@
+
+@media all and (max-width:1662px) {
+  .intro__skils-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 165px;
+}
+.footer__btn {
+  margin-left: 540px;
+}
+}
+@media all and (max-width:1542px) {
+  .search__form-submit{
+    margin-top: 30px;
+  }
+.footer__btn {
+    margin-left: 500px;
+}
+.search__form-field2{
+  display: none;
+}
+}
+
+
+
+@media all and (max-width:1400px) {
+  .container{
+    width: 100%;
+  }
+  .search__form-field2{
+    display: none;
+  }
+  .footer__btn {
+      margin-left: 444px;
+  }
+.intro__skils-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 120px;
+}
+.header__top-desc {
+  width: 16%;
+  font-size: 20px;
+}
+.header__top-desc2 {
+  width: 16%;
+  font-size: 20px;
+}
+}
+
+@media all and (max-width:1200px) {
+  .footer__btn {
+    margin-left: 365px;
+}
+.search__form-field2{
+  display: none;
+}
+.header__top-desc {
+  width: 33%;
+}
+}
+@media all and (max-width:1024px) {
+  .search__form-submit {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width:992px) {
+  .search__form-submit {
+    margin-top: 30px;
+  }
+  .search__form-field2{
+    display: none;
+  }
+  .footer__btn  {
+    margin-left: 278px;
+  }
+  .header__top-pic {
+    height: 400px;
+  }
+  .header__top-desc {
+    width: 21%;
+}
+}
+@media all and (max-width:768px) {
+  .header__top-desc {
+    width: 31%;
+}
+.benefits__info-desc {
+  width: 50%;
+}
+.header__top-pic {
+  height: 327px;
+}
+.intro__wrap {
+  width: 80%;
+}
+.portfolio {
+  background: #f7f3f7;
+  height: 900px;
+  margin-bottom: 120px;
+}
+.portfolio__new-title {
+  margin-top: 50px;
+}
+.portfolio__new-btn {
+  margin-top: 50px;
+}
+.search__form-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.search__form-field2{
+  display: none;
+}
+.footer__btn {
+  margin-left: 200px;
+}
+.footer__icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.footer__bottom-pic{
+margin-right: 0;
+}
+}
+@media all and (max-width:576px) {
+  .navbar {
+    display: none;
+  }
+  
+  .header__title {
+    flex-wrap: wrap;
+  }
+  .header__top-desc {
+    width: 80%;
+    margin-top: 20px;
+}
+.header__top-pic {
+  display: none;
+}
+.mobile__img-pic {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+.burger__menu{
+  display: block;
+}
+.intro__skils-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 130px;
+}
+.portfolio__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 6px
+}
+.portfolio__card3 {
+  display: none;
+}
+.portfolio__title-top {
+  text-align: center;
+}
+.portfolio__new-title {
+  font-size: 23px;
+  color: #383535;
+}
+.search__form-field1{
+  margin-bottom: 50px;
+}
+.search__form-field2{
+  display: none;
+}
+.search__form-submit {
+  margin-top: -20px;
+}
+.footer__btn {
+  margin-left: 128px;
+}
+.footer__bottom-desc {
+  width: 60%;
+}
+.header__top-desc {
+  font-size: 18px;
+}
+.header__top-desc2{
+  font-size: 18px;
+}
+}
+@media all and (max-width:320px) {
+  .header {
+       margin-bottom: 60px;
+}
+.header__title {
+  flex-wrap: wrap;
+}
+
+.header__top-desc2{
+    width: 34%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.mobile__img-pic{
+  display: block;
+}
+.burger__menu{
+  display: block;
+}
+.benefits__info-desc {
+  width: 85%;
+}
+.benefits__info {
+  height: 490px;
+}
+.intro__skils-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 64%;
+  margin: 0 auto;
+}
+.intro__skils-pic {
+  margin-bottom: 20px;
+}
+.portfolio__cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.portfolio__card-desc {
+  margin-bottom: 9px;
+  margin-top: 20px;
+}
+.portfolio__cards-bottom {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.portfolio {
+  margin-bottom: 666px; 
+}
+.footer__wrap {
+  width: 92%;
+  margin: 0 auto;
+}
+.search__form {
+  width: 100%;
+}
+.search__form-field {
+  display: none;
+}
+.search__form-field2{
+  display: block;
+}
+.search__form-field1 {
+  margin-bottom: 50px;
+}
+.search__form-field2{
+  margin-bottom: 40px;
+}
+.footer__btn {
+  margin-left: 50px;
+}
+.footer__icon {
+  flex-wrap: wrap;
+}
+}
+
+/* Второя страница адаптивка */
+
+@media all and (max-width:576px) {
+  .services__image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services__imafes {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+

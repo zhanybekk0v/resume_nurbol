@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+ body {
+  width: 100%;
+ }
+
+ .container {
+  background: url(/img/12.jpg) no-repeat;
+
+ }
+ .wrapper {
+  width: 90%;
+  margin: 0 auto;
+ }
+ .services__image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+ }
+ .services__image-pic{
+  width: 70%;
+  height: 90%;
+ }
